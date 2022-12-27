@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin:50px;
+}
+table{
+    border: 2px solid red;
+    width: 100%;
+}
+table th {
+    color: blue;
+   text-align: center;
+}
+table td{
+    color: green;
+    text-align: center;
+
+}
+.btn{
+    margin: 5px 20px;
+}
+#input{
+    margin:20px;
+}
+#input label{
+    font-size: 20px;
+
+}
+#input input{
+    padding: 10px 21px;
+    font-size: 20px;
+
+}
+#add{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+#add:active{
+    background-color: black;
+    color: white;
+}
+#sub{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#sub:active{
+    background-color: black;
+    color: white;
+}
+#multi{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#multi:active{
+    background-color: black;
+    color: white;
+}
+#div{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#div:active{
+    background-color: black;
+    color: white;
+}
+#result{
+    display: block;
+   margin: 0 10px;
+    color: red;
+    font-size: 20px;
+}
+#reset{
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+#reset:active{
+    background-color: black;
+    color: white;
+}
+.btn-1{
+    margin: 1.1em 2em;
+
+}
+
+#count {
+    font-size: 26px;
+}
+#welcome{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 2em;
+}
+.box{
+    text-align: center;
+}
+
+.box button{
+    padding: 10px 50px;
+    margin: 10px;
+    font-size: 1.8em;
+}
+.container{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+.container button{
+    font-size: 1.3em;
+    color: #9AABD8;
+    border-color:#9AABD8;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+#Num1{
+   font-size: 2em;
+   text-decoration: underline;
+}
+#Num2{
+    font-size: 2em;
+    text-decoration: underline;
+ }
+
+
+            /*SCRIMBA SCORING BOARD*/
+            .container {
+                display: flex;
+                justify-content: space-around;
+                background-color: #1B244A;
+                padding-top: 30px;
+                
+            }
+            .home{
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .home h3{
+                text-align: center
+            }
+            .guest{
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .guest h3{
+                text-align: center
+            }
+            .scoring-board{
+                background-color: black;
+                margin: 20px 0;
+                
+            }
+            #score-h{
+                font-family: 'Cursed Timer ULiL';
+                text-align: center;
+                color: #F94F6D;
+                font-weight: 400;
+                font-size:60px;
+                font-style: normal;
+                padding: 10px 30px
+            }
+            #score-g{
+                font-family: 'Cursed Timer ULiL';
+                text-align: center;
+                color: #F94F6D;
+                font-weight: 400;
+                font-size:60px;
+                font-style: normal;
+                padding: 10px 30px
+            }
+            .btn{
+                display: flex;
+                justify-content: space-around 
+                
+            }
+            .btn button {
+                color: #9AABD8;
+                background-color: #1B244A;
+                border-color: #9AABD8;
+                margin: 5px;
+                
+            }
+            .plusOne{
+                width: 35px;
+                height: 35px;
+                font-family: 'Cursed Timer ULiL';
+                border-radius: 5px
+            
+            }
+            .plusTwo{
+                width: 35px;
+                height: 35px;
+                font-family: 'Cursed Timer ULiL';
+                border-radius: 5px
+            }
+            .plusThree{
+                 width: 35px;
+                height: 35px;
+                font-family: 'Cursed Timer ULiL';
+                border-radius: 5px
+            }
